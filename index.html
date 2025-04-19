@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Transform your room with our Astronaut Galaxy Projector Night Light - 360° rotating nebula star projector perfect for bedrooms, gaming rooms, and parties.">
+  <title>Astronaut Galaxy Projector Night Light | One94Store</title>
+  
+  <!-- Preload critical resources -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style">
+  <link rel="preload" href="https://m.media-amazon.com/images/I/61XDeaOrAIL._SL1500_.jpg" as="image">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+  
+  <style>
+    /* CSS Variables for easy theming */
+    :root {
+      --primary: #3a86ff;
+      --primary-dark: #2667cc;
+      --secondary: #8338ec;
+      --secondary-dark: #6a2bc2;
+      --dark: #1a1a2e;
+      --darker: #0d0d1a;
+      --light: #f8f9fa;
+      --lighter: #ffffff;
+      --accent: #ff006e;
+      --accent-dark: #d8005d;
+      --text: #333333;
+      --text-light: #6c757d;
+      --text-lighter: #9a9a9a;
+      --border-radius: 12px;
+      --box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      --section-padding: clamp(3rem, 5vw, 5rem) 0;
+      --container-width: min(1200px, 95%);
+    }
+    
+    /* Modern CSS Reset */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text);
+      line-height: 1.6;
+      background-color: #f5f5f5;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    
+    /* Typography */
+    h1, h2, h3, h4 {
+      line-height: 1.2;
+      font-weight: 700;
+    }
+    
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+    }
+    
+    h2 {
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+    }
+    
+    h3 {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+    }
+    
+    p {
+      font-size: clamp(1rem, 1.2vw, 1.1rem);
+      margin-bottom: 1rem;
+    }
+    
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+    /* Utility Classes */
+    .container {
+      width: var(--container-width);
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+    
+    .text-center {
+      text-align: center;
+    }
+    
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.8rem 1.8rem;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      border: none;
+      border-radius: var(--border-radius);
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      box-shadow: 0 4px 15px rgba(58, 134, 255, 0.3);
+      text-align: center;
+      gap: 0.5rem;
+      white-space: nowrap;
+    }
+    
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(58, 134, 255, 0.4);
+      background: linear-gradient(135deg, var(--primary-dark), var(--secondary-dark));
+    }
+    
+    .btn-secondary {
+      background: transparent;
+      border: 2px solid white;
+      color: white;
+      box-shadow: none;
+    }
+    
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transform: translateY(-2px);
+    }
+    
+    .btn-sticky {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      z-index: 100;
+      display: none;
+      animation: pulse 2s infinite;
+      width: auto;
+    }
+    
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    .section-title {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .section-title h2 {
+      color: var(--dark);
+      margin-bottom: 1rem;
+    }
+    
+    .section-title p {
+      color: var(--text-light);
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    
+    /* Header */
+    header {
+      background-color: var(--lighter);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 99;
+      padding: 0.5rem 0;
+    }
+    
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      font-size: clamp(1.25rem, 3vw, 1.5rem);
+      font-weight: 700;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+    
+    .logo span {
+      color: var(--secondary);
+    }
+    
+    .cart-btn {
+      background-color: var(--light);
+      color: var(--primary);
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 500;
+      transition: var(--transition);
+    }
+    
+    .cart-btn:hover {
+      background-color: var(--primary);
+      color: white;
+    }
+    
+    .cart-btn i {
+      font-size: 1.1rem;
+    }
+    
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 2rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+      opacity: 0.15;
+    }
+    
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      position: relative;
+      z-index: 1;
+      padding: 1rem 0;
+    }
+    
+    @media (min-width: 992px) {
+      .hero-content {
+        flex-direction: row;
+        gap: 3rem;
+      }
+      
+      .hero-text {
+        flex: 1;
+        text-align: left;
+      }
+      
+      .hero-image {
+        flex: 1;
+      }
+    }
+    
+    .hero-text {
+      text-align: center;
+    }
+    
+    .hero-image {
+        border: #0d0d1a;
+        border-width: 5px;
+        border-style: solid;
+        position: relative;
+        animation: float 6s ease-in-out infinite;
+    }
+    
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0px); }
+    }
+    
+    .hero p {
+      font-size: clamp(1rem, 1.5vw, 1.2rem);
+      margin-bottom: 1.5rem;
+      opacity: 0.9;
+    }
+    
+    .price {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    @media (min-width: 992px) {
+      .price {
+        justify-content: flex-start;
+      }
+    }
+    
+    .current-price {
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 700;
+      color: var(--accent);
+    }
+    
+    .original-price {
+      font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+      text-decoration: line-through;
+      opacity: 0.7;
+    }
+    
+    .discount-badge {
+      background-color: var(--accent);
+      color: white;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+    
+    .hero-btns {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    @media (min-width: 992px) {
+      .hero-btns {
+        justify-content: flex-start;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .hero-btns {
+        flex-direction: column;
+        width: 100%;
+      }
+      
+      .hero-btns .btn {
+        width: 100%;
+      }
+    }
+    
+    /* Features Section */
+    .features {
+      padding: var(--section-padding);
+      background-color: var(--lighter);
+    }
+    
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+      gap: 1.5rem;
+    }
+    
+    .feature-card {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-radius: var(--border-radius);
+      background-color: var(--light);
+      transition: var(--transition);
+      box-shadow: var(--box-shadow);
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+    
+    .feature-icon {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      color: var(--primary);
+    }
+    
+    .feature-card h3 {
+      margin-bottom: 1rem;
+    }
+    
+    /* Product Gallery */
+    .gallery {
+      padding: var(--section-padding);
+      background-color: #f9f9f9;
+    }
+    
+    .gallery-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+      gap: 1.5rem;
+    }
+    
+    .gallery-item {
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: var(--box-shadow);
+      transition: var(--transition);
+      aspect-ratio: 1 / 1;
+    }
+    
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    
+    .gallery-item:hover {
+      transform: scale(1.03);
+    }
+    
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+    
+    /* Benefits Section */
+    .benefits {
+      padding: var(--section-padding);
+      background-color: var(--lighter);
+    }
+    
+    .benefits-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+    
+    @media (min-width: 992px) {
+      .benefits-container {
+        flex-direction: row;
+        gap: 3rem;
+      }
+    }
+    
+    .benefits-image {
+      width: 100%;
+      max-width: 500px;
+    }
+    
+    .benefits-image img {
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+    }
+    
+    .benefits-text {
+      width: 100%;
+    }
+    
+    .benefits-list {
+      list-style: none;
+      margin-top: 1.5rem;
+    }
+    
+    .benefits-list li {
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    
+    .benefit-icon {
+      color: var(--primary);
+      font-size: 1.5rem;
+      margin-top: 0.25rem;
+      flex-shrink: 0;
+    }
+    
+    /* Reviews Section */
+    .reviews {
+      padding: var(--section-padding);
+      background-color: #f9f9f9;
+    }
+    
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+      gap: 1.5rem;
+    }
+    
+    .review-card {
+      background-color: var(--lighter);
+      padding: 1.5rem;
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+    }
+    
+    .review-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    
+    .review-avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: var(--light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 1rem;
+      font-weight: bold;
+      color: var(--primary);
+    }
+    
+    .review-name {
+      font-weight: 600;
+    }
+    
+    .review-rating {
+      color: #ffc107;
+      margin-top: 0.25rem;
+      font-size: 0.9rem;
+    }
+    
+    .review-rating i {
+      margin-right: 0.1rem;
+    }
+    
+    .review-content {
+      color: var(--text-light);
+      font-style: italic;
+    }
+    
+    /* Trust Badges */
+    .trust {
+      padding: var(--section-padding);
+      background-color: var(--lighter);
+    }
+    
+    .trust-badges {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    
+    .trust-badge {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      max-width: 150px;
+    }
+    
+    .trust-icon {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+    }
+    
+    /* FAQ Section */
+    .faq {
+      padding: var(--section-padding);
+      background-color: #f9f9f9;
+    }
+    
+    .faq-container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .faq-item {
+      margin-bottom: 1rem;
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      background-color: var(--lighter);
+      box-shadow: var(--box-shadow);
+    }
+    
+    .faq-question {
+      padding: 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      font-weight: 600;
+      background-color: var(--lighter);
+      transition: var(--transition);
+    }
+    
+    .faq-question:hover {
+      background-color: var(--light);
+    }
+    
+    .faq-answer {
+      padding: 0 1.25rem;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+      color: var(--text-light);
+    }
+    
+    .faq-answer.active {
+      padding: 0 1.25rem 1.25rem;
+      max-height: 500px;
+    }
+    
+    .faq-toggle {
+      transition: var(--transition);
+    }
+    
+    .faq-toggle.active {
+      transform: rotate(180deg);
+    }
+    
+    /* CTA Section */
+    .cta {
+      padding: var(--section-padding);
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      text-align: center;
+    }
+    
+    .cta h2 {
+      margin-bottom: 1rem;
+    }
+    
+    .cta p {
+      max-width: 700px;
+      margin: 0 auto 2rem;
+      opacity: 0.9;
+    }
+    
+    .cta .btn {
+      margin: 0 auto;
+    }
+    
+    .cta small {
+      display: block;
+      margin-top: 1rem;
+      font-size: 0.875rem;
+      opacity: 0.9;
+    }
+    
+    /* Footer */
+    footer {
+      background-color: var(--dark);
+      color: white;
+      padding: 3rem 0 1.5rem;
+    }
+    
+    .footer-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+      gap: 2rem;
+      margin-bottom: 2.5rem;
+    }
+    
+    .footer-col h3 {
+      font-size: 1.125rem;
+      margin-bottom: 1.25rem;
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+    
+    .footer-col h3::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 40px;
+      height: 2px;
+      background-color: var(--primary);
+    }
+    
+    .footer-col ul {
+      list-style: none;
+    }
+    
+    .footer-col ul li {
+      margin-bottom: 0.75rem;
+    }
+    
+    .footer-col ul li a {
+      color: var(--text-lighter);
+      transition: var(--transition);
+      display: inline-block;
+    }
+    
+    .footer-col ul li a:hover {
+      color: white;
+      transform: translateX(5px);
+    }
+    
+    .footer-col.social-links li a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .footer-bottom {
+      text-align: center;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--text-lighter);
+      font-size: 0.875rem;
+    }
+    
+    /* Loading Animation */
+    .loading {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 3px solid rgba(255,255,255,.3);
+      border-radius: 50%;
+      border-top-color: white;
+      animation: spin 1s ease-in-out infinite;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    /* Accessibility Improvements */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+    
+    /* Focus styles for better keyboard navigation */
+    a:focus-visible,
+    button:focus-visible,
+    input:focus-visible,
+    select:focus-visible,
+    textarea:focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: 2px;
+    }
+    
+    /* Performance optimizations */
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <span>One94</span><span>Store</span>
+      </a>
+      <a href="#" class="cart-btn" aria-label="Shopping Cart">
+        <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+        <span>Cart</span>
+      </a>
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Astronaut Galaxy Projector Night Light</h1>
+        <p>Transform any room into a mesmerizing galaxy with our 360° rotating nebula star projector. Perfect for kids' bedrooms, gaming rooms, and party décor.</p>
+        
+        <div class="price">
+          <span class="current-price">₹799</span>
+          <span class="original-price">₹3499</span>
+          <span class="discount-badge">77% OFF</span>
+        </div>
+        
+        <div class="hero-btns">
+          <a href="#order" class="btn">Buy Now</a>
+          <a href="#features" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+      
+      <div class="hero-image">
+        <img src="https://www.coraltree.in/cdn/shop/products/51bGa8vSR3L._AC_SL1000.jpg?v=1678620404&width=2400" alt="Astronaut Galaxy Projector" loading="lazy" width="600" height="600">
+      </div>
+    </div>
+  </section>
+  
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-title">
+        <h2>Why You'll Love It</h2>
+        <p>Discover the amazing features that make our galaxy projector stand out from the rest</p>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-sync-alt" aria-hidden="true"></i>
+          </div>
+          <h3>360° Rotation</h3>
+          <p>Full rotation capability creates an immersive galaxy experience from every angle.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </div>
+          <h3>Adjustable Head</h3>
+          <p>Tilt the astronaut's head to direct the projection exactly where you want it.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+          </div>
+          <h3>Timer Function</h3>
+          <p>Set it to automatically turn off after 1-4 hours, perfect for falling asleep.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-gamepad" aria-hidden="true"></i>
+          </div>
+          <h3>Remote Control</h3>
+          <p>Easily adjust settings without getting up from your bed or couch.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Product Gallery -->
+  <section class="gallery">
+    <div class="container">
+      <div class="section-title">
+        <h2>See It In Action</h2>
+        <p>Check out how our galaxy projector transforms any space</p>
+      </div>
+      
+      <div class="gallery-container">
+        <div class="gallery-item">
+          <img src="https://m.media-amazon.com/images/I/71SpxK02ggL.jpg" alt="Galaxy Projector in bedroom" loading="lazy" width="600" height="600">
+        </div>
+        <div class="gallery-item">
+          <img src="https://m.media-amazon.com/images/I/7125ss5uAlL.jpg" alt="Galaxy Projector close-up" loading="lazy" width="600" height="600">
+        </div>
+        <div class="gallery-item">
+          <img src="https://m.media-amazon.com/images/I/91O-5tjsbbL.jpg" alt="Galaxy Projector effect" loading="lazy" width="600" height="600">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Benefits Section -->
+  <section class="benefits">
+    <div class="container benefits-container">
+      <div class="benefits-image">
+        <img src="https://m.media-amazon.com/images/I/71sSJutOuRL._AC_UF350,350_QL80_.jpg" alt="Astronaut Galaxy Projector Benefits" loading="lazy" width="500" height="500">
+      </div>
+      
+      <div class="benefits-text">
+        <h2>More Than Just a Night Light</h2>
+        
+        <ul class="benefits-list">
+          <li>
+            <div class="benefit-icon">
+              <i class="fas fa-bed" aria-hidden="true"></i>
+            </div>
+            <div>
+              <h3>Better Sleep</h3>
+              <p>The calming nebula effects help create a relaxing environment perfect for falling asleep.</p>
+            </div>
+          </li>
+          
+          <li>
+            <div class="benefit-icon">
+              <i class="fas fa-child" aria-hidden="true"></i>
+            </div>
+            <div>
+              <h3>Kids Love It</h3>
+              <p>Children adore the magical space atmosphere, making bedtime something they look forward to.</p>
+            </div>
+          </li>
+          
+          <li>
+            <div class="benefit-icon">
+              <i class="fas fa-music" aria-hidden="true"></i>
+            </div>
+            <div>
+              <h3>Party Essential</h3>
+              <p>Transform your space into an otherworldly party venue with stunning visual effects.</p>
+            </div>
+          </li>
+          
+          <li>
+            <div class="benefit-icon">
+              <i class="fas fa-gift" aria-hidden="true"></i>
+            </div>
+            <div>
+              <h3>Perfect Gift</h3>
+              <p>An unique present for birthdays, holidays, or any special occasion for all ages.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Reviews Section -->
+  <section class="reviews">
+    <div class="container">
+      <div class="section-title">
+        <h2>What Our Customers Say</h2>
+        <p>Don't just take our word for it - hear from happy customers</p>
+      </div>
+      
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar" aria-hidden="true">SK</div>
+            <div>
+              <div class="review-name">Sarah K.</div>
+              <div class="review-rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <span class="sr-only">5 star rating</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-content">
+            "My 6-year-old is obsessed with space and this projector has made bedtime so much easier! The effects are beautiful and the remote control is very convenient. Highly recommend!"
+          </div>
+        </div>
+        
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar" aria-hidden="true">MJ</div>
+            <div>
+              <div class="review-name">Michael J.</div>
+              <div class="review-rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <span class="sr-only">5 star rating</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-content">
+            "I bought this for my gaming room and it's absolutely amazing! The rotating feature creates such a cool atmosphere. Friends always ask where I got it. Worth every penny!"
+          </div>
+        </div>
+        
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar" aria-hidden="true">AP</div>
+            <div>
+              <div class="review-name">Anita P.</div>
+              <div class="review-rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star-half-alt" aria-hidden="true"></i>
+                <span class="sr-only">4.5 star rating</span>
+              </div>
+            </div>
+          </div>
+          <div class="review-content">
+            "The projector is even better than I expected! The colors are vibrant and the timer function is perfect for falling asleep. My only wish is that it had more color options."
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Trust Badges -->
+  <section class="trust">
+    <div class="container">
+      <div class="section-title">
+        <h2>Shop With Confidence</h2>
+      </div>
+      
+      <div class="trust-badges">
+        <div class="trust-badge">
+          <div class="trust-icon">
+            <i class="fas fa-shield-alt" aria-hidden="true"></i>
+          </div>
+          <div class="trust-text">Secure Payments</div>
+        </div>
+        
+        <div class="trust-badge">
+          <div class="trust-icon">
+            <i class="fas fa-truck" aria-hidden="true"></i>
+          </div>
+          <div class="trust-text">Fast Delivery</div>
+        </div>
+        
+        <div class="trust-badge">
+          <div class="trust-icon">
+            <i class="fas fa-undo" aria-hidden="true"></i>
+          </div>
+          <div class="trust-text">Easy Returns</div>
+        </div>
+        
+        <div class="trust-badge">
+          <div class="trust-icon">
+            <i class="fas fa-headset" aria-hidden="true"></i>
+          </div>
+          <div class="trust-text">24/7 Support</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FAQ Section -->
+  <section class="faq">
+    <div class="container">
+      <div class="section-title">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question" tabindex="0" role="button" aria-expanded="false" aria-controls="faq1">
+            <span>How big is the projection area?</span>
+            <i class="fas fa-chevron-down faq-toggle" aria-hidden="true"></i>
+          </div>
+          <div class="faq-answer" id="faq1">
+            <p>The projection can cover an entire room depending on distance. For best results, place the projector 1-3 meters from the surface you're projecting onto. The further away, the larger but less intense the projection becomes.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question" tabindex="0" role="button" aria-expanded="false" aria-controls="faq2">
+            <span>Does it require batteries?</span>
+            <i class="fas fa-chevron-down faq-toggle" aria-hidden="true"></i>
+          </div>
+          <div class="faq-answer" id="faq2">
+            <p>The main unit plugs into a standard power outlet (included), but the remote control requires 2 AAA batteries (not included).</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question" tabindex="0" role="button" aria-expanded="false" aria-controls="faq3">
+            <span>Can I adjust the colors?</span>
+            <i class="fas fa-chevron-down faq-toggle" aria-hidden="true"></i>
+          </div>
+          <div class="faq-answer" id="faq3">
+            <p>Yes! The remote allows you to cycle through 8 different color modes, including a rotating color mode that smoothly transitions between colors.</p>
+          </div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question" tabindex="0" role="button" aria-expanded="false" aria-controls="faq4">
+            <span>Is it suitable for adults too?</span>
+            <i class="fas fa-chevron-down faq-toggle" aria-hidden="true"></i>
+          </div>
+          <div class="faq-answer" id="faq4">
+            <p>Absolutely! While kids love it, many adults use it for meditation, relaxation, or to create a unique ambiance in their bedroom or living space.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- CTA Section -->
+  <section class="cta" id="order">
+    <div class="container">
+      <h2>Ready to Transform Your Space?</h2>
+      <p>Join thousands of happy customers who've brought the magic of the galaxy into their homes.</p>
+      <a href="#" class="btn">Order Now - ₹799 Only</a>
+      <p style="margin-top: 15px; font-size: 14px;">Free delivery · 7-day returns · 1-year warranty</p>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h3>Shop</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Special Offers</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Help</h3>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns & Exchanges</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>About</h3>
+          <ul>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Connect</h3>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="#"><i class="fab fa-pinterest"></i> Pinterest</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2023 One94Store. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Sticky CTA Button -->
+  <a href="#" class="btn btn-sticky">Buy Now - ₹799</a>
+  
+  <!-- JavaScript -->
+  <script>
+    // Toggle FAQ items
+    document.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', () => {
+        const answer = question.nextElementSibling;
+        const toggle = question.querySelector('.faq-toggle');
+        
+        answer.classList.toggle('active');
+        toggle.classList.toggle('active');
+      });
+    });
+    
+    // Show sticky CTA button when scrolling
+    window.addEventListener('scroll', () => {
+      const stickyBtn = document.querySelector('.btn-sticky');
+      if (window.scrollY > 500) {
+        stickyBtn.style.display = 'block';
+      } else {
+        stickyBtn.style.display = 'none';
+      }
+    });
+    
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
